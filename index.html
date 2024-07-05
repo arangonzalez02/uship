@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <img src="img/logo.png" alt="logo" class="logo" />
+
+        <a href="index.html" class="seleccionada">Inicio</a>
+        <a href="nacional.html">Nacional</a>
+        <a href="internacional.html">Internacional</a>
+        <a href="calcular.html">Calcular</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="seguimiento.html">Seguimiento</a>
+        <a href="areadelcliente.html"><img src="img/area_cliente.png" alt="logo" class="usuario_cliente"></a>
+
+
+    </nav>
+
+    <header class="galeria">
+        <div class="bg-img">
+            <section class="row margin-top-100">
+                <div class="cajaBlanca">
+                    <div class="cajaTexto">
+
+                        <h2>Calcula tu envío</h2>
+
+                        <div class="cajaSelect">
+                            <h4>Indique el destino de su envio</h4>
+                            <select name="destino" id="destino">
+                                <option value="">-- Seleccione un destino --</option>
+                            </select>
+                        </div>
+
+                        <div class="cajaSelect">
+                            <h4>Indique el tipo de envio</h4>
+                            <select name="peso" id="peso" class="select">
+                                <option value="">-- Seleccione un envio --</option>
+                            </select>
+                        </div>
+
+                        <div class="botones">
+                            <button class="boton hover" id="boton">Calcular</button>
+                        </div>
+
+                        <div class="mensaje" id="mensaje"></div>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </header>
+
+
+    <footer></footer>
+
+
+    <script src="js/index.js"></script>
+
+    <script src="js/calcular.js"></script>
+</body>
+
+
+
+
+</html>

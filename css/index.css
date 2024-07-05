@@ -1,0 +1,315 @@
+/* Para ordenadores y portátiles */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* Para dispositivos móviles */
+@media (min-width: 1024px) {
+    .contenedor-img.pantalla {
+        height: 80vh;
+    }
+}
+
+/* TIPOGRAFÍAS */
+[class*="ubuntu-"] {
+    font-style: normal;
+}
+
+.ubuntu-light {
+    font-weight: 300;
+}
+
+.ubuntu-regular {
+    font-weight: 400;
+}
+
+.ubuntu-medium {
+    font-weight: 500;
+}
+
+.ubuntu-bold {
+    font-weight: 700;
+}
+
+.ubuntu-light-italic {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.ubuntu-regular-italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ubuntu-medium-italic {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.ubuntu-bold-italic {
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* ESTRUCTURA GENERAL */
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+
+body,
+footer {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    margin-top: 10%;
+    width: 100%;
+    height: 81px;
+    position: absolute;
+    left: 0;
+    background-color: #333;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Navegador */
+.nav {
+    background-color: #333;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    color: #f2f2f2;
+    text-decoration: none;
+    align-items: center;
+    font-size: 22px;
+    height: 55%;
+    padding: 10px 18px;
+}
+
+a:hover {
+    color: rgb(222, 66, 14);
+    height: 58%;
+}
+
+
+.logo {
+    width: 155px;
+    height: 75px;
+    padding: 15px;
+}
+
+.usuario_cliente {
+    width: 45px;
+    height: 45px;
+}
+
+/* IMG */
+.img_tarifas,
+.img_casa {
+    padding: 20px;
+    height: 60%;
+    width: 90%;
+}
+
+.img_tarifas {
+    padding: 35px;
+}
+
+/* FONDOS */
+
+.galeria,
+.calcular,
+.seguimiento,
+.contacto,
+.areadelcliente {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.galeria {
+    background-image: url(../img/img_cabecera.jpg);
+}
+
+.calcular {
+    background-image: url(../img/calcula.jpg);
+}
+
+.seguimiento {
+    background-image: url(../img/seguimiento.jpg);
+}
+
+.contacto {
+    background-image: url(../img/uship-contacto.png);
+}
+
+.areadelcliente {
+    background-image: url(../img/uship-envio-seguro.jpg);
+}
+
+
+/* DISPOSICIÓN */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-columna,
+header {
+    flex-direction: column;
+}
+
+.row-centrado {
+    margin: auto;
+    align-items: flex-start;
+}
+
+/* MÁRGENES */
+.espacio-xy-100 {
+    padding: 100px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+
+/* COLORES */
+
+
+.seleccionada {
+    color: rgb(222, 66, 14);
+}
+
+.rojo {
+    color: red;
+}
+
+.validoInput {
+    border: 2px solid darkgreen;
+}
+
+.errorInput {
+    border: 2px solid darkred;
+}
+
+
+
+/* BOTONES */
+button,
+.boton_estilo {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+.botones {
+    padding: 25px;
+}
+
+.hover:hover {
+    background-color: #BF452A;
+}
+
+
+/* CAJAS */
+
+.cajaLinea {
+    border: 5px solid #333;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.cajaBlanca {
+    height: 500px;
+    width: 60vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2ab;
+}

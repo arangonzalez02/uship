@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <nav class="nav">
+    <img src="img/logo.png" alt="logo" class="logo" />
+
+    <a href="index.html">Inicio</a>
+    <a href="nacional.html">Nacional</a>
+    <a href="internacional.html">Internacional</a>
+    <a href="calcular.html">Calcular</a>
+    <a href="contacto.html" class="seleccionada">Contacto </a>
+    <a href="seguimiento.html">Seguimiento</a>
+    <a href="areadelcliente.html" class="right"><img src="img/area_cliente.png" alt="logo" class="usuario_cliente"></a>
+  </nav>
+
+
+
+  <header class="contacto">
+    <div class="row margin-top-100">
+      <section>
+        <div class="cajaBlanca">
+          <div class="cajaTexto">
+            <h2>Contacta con nosotros</h2>
+
+            <p>
+              <b><i> [Los datos marcados con <span class="rojo">*</span> son
+                  obligatorios] </i></b>
+            </p>
+
+            <form action="" id="registroForm" onsubmit="return validarFormulario()">
+              <p class="form-group">
+                <label for="nombre">Nombre:<span class="rojo">*</span></label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+              </p>
+              <div class="nombreError rojo msn"></div>
+
+              <p class="form-group">
+                <label for="email">Email:<span class="rojo">*</span></label>
+                <input type="email" id="email" name="email" placeholder="Email" />
+              </p>
+              <div class="emailError rojo msn"></div>
+
+              <p class="form-group">
+                <label for="consulta">Indica tu consulta:</label>
+              </p>
+              <p>
+                <textarea type="text" placeholder="Mensaje" id="consulta" name="consulta"> </textarea>
+              </p>
+              <div class="row">
+                <input type="reset" value="Borrar" class="boton boton_estilo hover" />
+                <input type="submit" value="Registrar" class="boton boton_estilo hover" id="reset" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    </section>
+
+
+
+    <script src="js/contacto.js"></script>
+</body>
+
+</html>

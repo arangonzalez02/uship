@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <img src="img/logo.png" alt="logo" class="logo" />
+
+        <a href="index.html">Inicio</a>
+        <a href="nacional.html">Nacional</a>
+        <a href="internacional.html">Internacional</a>
+        <a href="calcular.html">Calcular</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="seguimiento.html" class="seleccionada">Seguimiento</a>
+        <a href="areadelcliente.html"><img src="img/area_cliente.png" alt="logo" class="usuario_cliente"></a>
+    </nav>
+    <header class="seguimiento">
+        <div class="bg-img">
+            <section class="row margin-top-100">
+                <div class="cajaBlanca">
+                    <div class="cajaTexto">
+                        <h2>Seguimiento del pedido</h2>
+
+                        <div>
+                            <h3>Indique su número de envío</h3>
+                            <form action="" id="registroForm" onsubmit="return validarFormulario()">
+
+                                <div class="row">
+                                    <p class="form-group">
+                                        <input type="text" id="numero" name="numero" />
+                                    </p>
+                                </div>
+                                <div class="numeroError rojo msn"></div>
+                                <p>
+                                    <input type="submit" value="Registrar" class="boton boton_estilo hover" />
+                                </p>
+
+                        </div>
+                    </div>
+            </section>
+
+        </div>
+    </header>
+
+
+
+
+    <script src="js/seguimiento.js"></script>
+
+
+</body>
+
+</html>
